@@ -1,4 +1,5 @@
 #1
+#Создаю свой датафрейм, рандомно ввожу NA, с помощью dplyr удаляю
 library(dplyr)
 my_data = as.data.frame(matrix(sample(c(1:20, rep(NA, 5))), 5))#использовал sample из базового R
 
